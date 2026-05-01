@@ -28,10 +28,10 @@ function Calculate(){
        setResult("");
     };
     
-    function Change () {
+    function Change (event) {
         setInput1 (event.target.value)
     }
-    function Change1 () {
+    function Change1 (event) {
         setInput2 (event.target.value)
     }
 
